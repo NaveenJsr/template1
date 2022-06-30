@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 *
 {
     margin: 0;
@@ -18,5 +20,30 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, #a517);
+    background-image: linear-gradient(to right, #9FE2BF, #CCCCFF);
+    padding: 0 !important;
+}
+
+.navbar-brand
+{
+    height: 40px;
+    padding-left: 20px;
+    font-family: 'Dancing Script', cursive;
+} 
+
+.navbar li
+{
+    padding: 0 10px;
+}
+
+.navbar li a
+{
+    color: #fff !important;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon
+{
+    color: #fff;
+    font-size: 30px I !important;
 }
