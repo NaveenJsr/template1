@@ -47,3 +47,103 @@ body
     color: #fff;
     font-size: 30px I !important;
 }
+
+/*----banner section -------*/
+
+#banner
+{
+    background-image: linear-gradient(to right, #9FE2BF, #CCCCFF);
+    color: #fff;
+    padding-top: 5%;
+
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+
+/*---services section---*/
+#services
+{
+    padding: 80px 0;
+}
+
+.service-img
+{
+    height: 130px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.services
+{
+    padding: 20px;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    
+}
+
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    
+}
+
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #9FE2BF, #CCCCFF);
+
+}
+
+
+/*--------About us section------*/
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 400;
+}
