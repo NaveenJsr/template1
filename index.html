@@ -14,7 +14,9 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
       <!--font awesome -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+      <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">-->
+
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
       <link rel="stylesheet" href="style/style.css">
 
@@ -30,23 +32,21 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">HOME</a>
+                      <a class="nav-link" href="#banner">HOME</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">SERVICES</a>
+                      <a class="nav-link" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">OPTION_2</a>
+                      <a class="nav-link" href="#about-us">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">OPTION_3</a>
+                      <a class="nav-link" href="#testimonials">TESTIMONIAL</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">OPTION_4</a>
+                      <a class="nav-link" href="#footer">CONTSCT US</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">OPTION_5</a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -99,7 +99,7 @@
 
       <section id="about-us">
         <div class="container">
-          <h1 class="title text-center">why Choose us?</h1>
+          <h1 class="title text-center">WHY CHOOSE US?</h1>
           <div class="row">
             <div class="col-md-6 about-us">
               <p class="about-title">why we different</p>
@@ -111,9 +111,82 @@
                   <li>Belive in dooing business in honesty</li>
                 </ul>
             </div>
+            <div class="col-md-6 text-center">
+              <img src="images/network.png" class="img-fluid">
+            </div>
           </div>
         </div>
 
       </section>
+
+      <!-----testimonials------>
+
+      <section id="testimonials">
+        <div class="container">
+          <h1 class="title text-center">WHAT PEOPLE SAYS?</h1>
+          <div class="row offset-1">
+            <div class="col-md-5 testimonials">
+              <p>Nicepage is a must-have tool for any webmaster. It’s like a real assistant, but works 100 times faster.</p>
+              <img src="images/user1.jpg">
+              <p class="user-details"><b>Alan Hollander</b><br>web developer</p>
+            </div>
+            <div class="col-md-5 testimonials">
+              <p>Nicepage is a must-have tool for any webmaster. It’s like a real assistant, but works 100 times faster.</p>
+              <img src="images/user1.jpg">
+              <p class="user-details"><b>Alan Hollander</b><br>web developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-----social media section----->
+      <section id="social-media">
+        <div class="container text-center">
+          <p>Find us on Social Media</p>
+          <div class="soicial-icons">
+            <a href="#"><img src="images/facebook-icon.png"></a>
+            <a href="#"><img src="images/instagram-icon.png"></a>
+            <a href="#"><img src="images/whatsapp-icon.png"></a>
+            <a href="#"><img src="images/linkedin-icon.png"></a>
+            <a href="#"><img src="images/telegram-icon.png"></a>
+            <a href="#"><img src="images/twitter-icon.png"></a>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!------footer section------->
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-box">
+              <img src="images/logo.png" >
+              <p>The content on this page is for informational purposes only, and does not constitute legal, tax, or accounting advice. 
+                If you have specific questions about any of these topics, seek the counsel of a licensed professional.</p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>CONTACT US</b></p>
+              <p><i class="fa fa-map-marker"></i> K-6,Hig-95,Kalinga Nagar, Bhubneswar</p>
+              <p><i class="fa fa-phone"></i> +1 9304951191</p>
+              <p><i class="fa fa-envelope-o"></i> naveenjsr99@gmail.com</p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>SUBSCRIBE NEWSLETTER</b></p>
+              <input type="email" class="form-control" placeholder="Your Email">
+              <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">Created by @naveenjsr99</p>
+        </div>
+      </section>
+
+      <!------smooth scroll------>
+      <script src="js/smooth-scroll.js"></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
   </body>
 </html>

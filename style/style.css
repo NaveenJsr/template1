@@ -128,7 +128,7 @@ body
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #9FE2BF, #CCCCFF);
+    background-image: linear-gradient(to right, #737CA1, #151B8D);
 
 }
 
@@ -145,5 +145,137 @@ body
 .about-title
 {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+
+#about-us ul li
+{
+    margin: 10px 0;
+}
+
+#about-us ul
+{
+    margin-left: 20px;
+}
+
+
+/*----------testimonial section-------------------*/
+
+#testimonials
+{
+    margin: 100px 0;
+}
+
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*----social-media section----*/
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.soicial-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.soicial-icons a:hover img
+{
+    transform: translateY(-10px);
+
+}
+
+/*--------footer section-------*/
+
+#footer
+{
+    background-image: linear-gradient(to right, #9FE2BF, #CCCCFF);
+    color: #fff;
+}
+
+.footer-box
+{
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #737CA1, #151B8D);
+}
+
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #737CA1, #151B8D);
+
+
+}
+
+hr{
+    background-color: #fff;
+
+}
+
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
 }
