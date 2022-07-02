@@ -24,13 +24,13 @@ body
     padding: 0 !important;
 }
 
-.navbar-brand
+.navbar-brand img
 {
     height: 40px;
     padding-left: 20px;
-    font-family: 'Dancing Script', cursive;
+    
 } 
-
+ 
 .navbar li
 {
     padding: 0 10px;
@@ -39,7 +39,7 @@ body
 .navbar li a
 {
     color: #fff !important;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .navbar-toggler-icon
